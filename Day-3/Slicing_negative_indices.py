@@ -8,8 +8,10 @@ step: means move foreard/backwards by step
 
 list = [0,1,2,3,4,5,6]
 print(list[2:5])
-#print last
+#skip last
 print(list[:-1])
+#print last
+print(list[-1])
 # print 1 skip
 print(list[::2])
 #reverse
